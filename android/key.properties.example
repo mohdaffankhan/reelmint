@@ -1,0 +1,5 @@
+# Copy to android/key.properties (never commit it) to sign release builds.
+storePassword=your-store-password
+keyPassword=your-key-password
+keyAlias=reelmint
+storeFile=/absolute/path/to/reelmint-release.jks
