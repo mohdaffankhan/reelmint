@@ -11,9 +11,13 @@ not request internet access, so your recordings never leave your phone unless yo
 - **Built with:** Flutter (UI) and Kotlin (recording engine, overlays, media tools)
 - **License:** [MIT](LICENSE)
 
-## Download
+## Install
 
-Get the latest APK from the [Releases](https://github.com/mohdaffankhan/reelmint/releases) page.
+Reelmint works on any phone running Android 10 or newer. No setup or special settings are needed.
+
+1. Open the [Releases](https://github.com/mohdaffankhan/reelmint/releases) page on your phone and download the APK (see the table below).
+2. Open the downloaded file and tap **Install**. If Android asks, allow your browser or file manager to install apps. This is a one-time prompt for any app that doesn't come from the Play Store.
+3. Open Reelmint and follow the short setup.
 
 | File | Use it for |
 |---|---|
@@ -52,11 +56,13 @@ Not sure which one to pick? Use the universal APK. Checksums are in `SHA256SUMS.
 - Runs at the display's highest refresh rate (for example, 120 Hz)
 - Insights (number of recordings, total and longest duration) and an estimate of file size per minute for your current settings
 
-## Getting started
+## Building from source
+
+This section is for developers. To just use the app, see [Install](#install).
 
 ### Requirements
 - [Flutter](https://docs.flutter.dev/get-started/install) 3.x (stable channel) with the Android toolchain
-- An Android device with [USB debugging](https://developer.android.com/studio/debug/dev-options) enabled, running Android 10 or newer
+- An Android 10+ phone or emulator to run your build on. A physical phone needs [USB debugging](https://developer.android.com/studio/debug/dev-options) so your computer can install and debug the app on it.
 
 ### Run
 ```sh
